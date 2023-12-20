@@ -46,7 +46,7 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
 }
 
 /* GENERAL STYLES */
