@@ -1,0 +1,92 @@
+
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: auto; /* Center horizontally */
+  margin-top: 10px; /* Center vertically */
+  margin-bottom: auto;
+  max-width: 600px; 
+}
+
+.experience__container > div {
+  background: var(--color-bg);
+  padding: 1.4rem 5rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.experience__container > div:hover {
+  background: transparent;
+  /* border-color: var(--color-primary-variant); */
+  cursor: default;
+}
+
+.experience__container > div > h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+/* @media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .experience__content {
+    padding: 1rem;
+  }
+} */
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  .experience__content {
+    padding: 1rem;
+  }
+
+  /* Adjust the styles for the 3D spherical rotating text or other elements to fit within the viewport */
+  .text-sphere {
+    height: 100vh; /* Adjust to fit the viewport height */
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  };
+  .text-sphere {
+    height: 100vh; /* Adjust to fit the viewport height */
+  }
+}
