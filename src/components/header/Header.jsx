@@ -41,7 +41,7 @@ const Header = () => {
   return (
     <header>
       <div id="header" className="container header__container">
-        <h1 data-value="MUHAMMET MATIYEV">MUHAMMET MATIYEV</h1>
+        <h1 data-value="MUHAMMET MATIYEV">MUHAMMET MATIYEVv</h1>
         <h5 className="text-light">Cybersecurity Technician | Web Developer | Chemical Engineer</h5>
         <CTA />
       </div>
