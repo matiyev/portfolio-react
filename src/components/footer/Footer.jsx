@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer__socials">
-        <a target="_blank" rel="norefferer" href="https://www.linkedin.com/in/matiyev/">
+        <a target="_blank" rel="noreferer" href="https://www.linkedin.com/in/matiyev/">
           <BsLinkedin />
         </a>
-        <a target="_blank" rel="norefferer" href="https://github.com/matiyev">
+        <a target="_blank" rel="noreferer" href="https://github.com/matiyev">
           <FaGithub />
         </a>
-        <a target="_blank" rel="norefferer" href="https://www.youtube.com/@SentinelWatch">
+        <a target="_blank" rel="noreferer" href="https://www.youtube.com/@SentinelWatch">
           <BsYoutube />
         </a>
       </div>
