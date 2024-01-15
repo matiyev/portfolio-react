@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { BsYoutube } from "react-icons/bs";
+import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -14,8 +14,8 @@ const Footer = () => {
         <a target="_blank" rel="noreferrer" href="https://github.com/matiyev">
           <FaGithub />
         </a>
-        <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@SentinelWatch">
-          <BsYoutube />
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/matiyevv">
+          <BsTwitterX/>
         </a>
       </div>
       <div className="footer__copyright">
