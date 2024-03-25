@@ -19,13 +19,13 @@ const data = [
     id: 2,
     image: IMG2,
     title: "SOC-MOCK",
-    github: "https://github.com/matiyev/soc-lab"
+    github: "https://github.com/matiyev/soc-mock"
   },
   {
     id: 3,
     image: IMG3,
     title: "The Security Playground",
-    github: "https://github.com/matiyev/monitoring-detection-lab"
+    github: "https://github.com/matiyev/security-playground"
   },
   {
     id: 4,
