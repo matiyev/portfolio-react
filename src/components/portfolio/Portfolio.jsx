@@ -18,13 +18,13 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Fast-track to SOC Excellence",
+    title: "SOC-MOCK",
     github: "https://github.com/matiyev/soc-lab"
   },
   {
     id: 3,
     image: IMG3,
-    title: "Monitoring & Detection Homelab",
+    title: "The Security Playground",
     github: "https://github.com/matiyev/monitoring-detection-lab"
   },
   {
