@@ -13,7 +13,7 @@ const TextSphere = () => (
   >
     {[
         "JavaScript",
-        "Computer Security Operations",
+        "SOC",
         "Troubleshooting",
         "React",
         "Information Security Threats and Vulnerabilities",
