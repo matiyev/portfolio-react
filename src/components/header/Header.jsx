@@ -44,6 +44,17 @@ const Header = () => {
         <h1 data-value="MUHAMMET MATIYEV">MUHAMMET MATIYEV</h1>
         <h5 className="text-light">Cybersecurity Technician | Web Developer | Chemical Engineer</h5>
         <CTA />
+        <iframe 
+        title="Spotify track" 
+        style={{ borderRadius: '12px', color:'green' }} 
+        src="https://open.spotify.com/embed/track/4PaI8I6lpyzCf5WPzn0VeH?utm_source=generator&theme=0" 
+        width="50%" 
+        height="152" 
+        frameBorder="0" 
+        allowFullScreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy">
+        </iframe>
       </div>
     </header>
   );
