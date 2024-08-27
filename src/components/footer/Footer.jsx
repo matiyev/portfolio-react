@@ -14,7 +14,7 @@ const Footer = () => {
         <a target="_blank" rel="noreferrer" href="https://github.com/matiyev">
           <FaGithub />
         </a>
-        <a target="_blank" rel="noreferrer" href="https://twitter.com/matiyevv">
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/thetovarisch">
           <BsTwitterX/>
         </a>
       </div>
