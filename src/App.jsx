@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Nav />
+      {/* <Nav /> */}
       <Experience />
       <Portfolio />
       <Contact />
